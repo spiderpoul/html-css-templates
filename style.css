@@ -1,0 +1,269 @@
+* { margin: 0; padding: 0; }
+p { margin: 5px 0 10px 0; }
+
+html{height: 100%}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/**HEADER**/
+
+header {
+    width: 100%;
+    height: 504px;
+    padding-top: 96px;  
+    background: url(images/pattern.png) repeat;
+}
+
+header .description {
+    position: absolute;
+    width: 456px;    
+    padding: 171px 0 0 119px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+}
+
+header .description p{
+    text-shadow: 2px 3px 2px #0f5d91;
+}
+
+.logo {
+    padding: 48px 0 0 115px;
+    float: left;
+}
+
+.phone-container {
+    position: relative;
+    float: right;
+    padding-right: 57px;
+}
+
+.hand img {
+    height: 504px;
+}
+
+
+.iphone{
+    position: absolute;
+    left: 65px;
+    top: 65px;
+}
+
+header .icons > div {
+    float: left;
+    margin-right: 16px;
+    opacity: 0.5;
+    transition-duration: 700ms;
+}
+
+header .icons div:hover{
+    opacity: 1;
+    transition-duration: 700ms;
+}
+
+header .icons > div:last-child {
+    margin-right: 0;
+}
+
+header .icons {
+    position: absolute;
+    padding: 257px 0 0 119px;
+}
+
+/**FEATURES**/
+.features {
+    text-align: center;
+    padding-top: 60px;
+}
+
+h2.title {
+    font: 600 30px/30px Arial, sans-serif;
+    color: #222222;
+    margin-bottom: 32px;
+}
+
+h5.title {
+    font: 600 24px/24px Arial, sans-serif;
+    color: #222222;
+    margin-bottom: 23px;
+}
+
+.features p.description {
+    max-width: 1040px;
+    margin: 0 auto;
+    font: 16px/27px Helvetica, sans-serif;
+    color: #848484;
+    padding-bottom: 15px;
+}
+
+p.description {
+    font: 16px/27px Helvetica, sans-serif;
+    color: #848484;
+}
+
+.features-wrap {
+    margin-top: 53px;
+}
+
+.features-item {
+    float: left;
+    width: 33%;
+    margin-top: 47px;
+    padding-top: 67px;
+}
+
+.features-item p {
+    font: 16px/16px Helvetica, sans-serif;
+    color: #848484;
+    width: 320px;
+    margin: 0 auto;
+    line-height: 24px;    
+}
+
+.div_horizontal {
+    margin: 0 auto;
+    margin-top: 62px;
+    width: 78%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.div_vertical {
+    float: right;
+    height: 252px;
+    border-right: 1px solid #e3e3e3;
+    margin-top: -107px;
+}
+
+.flat-design {
+    background: url(images/flat-design.png) no-repeat center top;
+}
+
+.marketable {
+    background: url(images/marketable.png) no-repeat center top;
+}
+
+.edit-photos {
+    background: url(images/edit-photos.png) no-repeat center top;
+}
+
+.edit-colors {
+    background: url(images/edit-colors.png) no-repeat center top;
+}
+
+.user-friendly {
+    background: url(images/user-friendly.png) no-repeat center top;
+}
+
+.editable {
+    background: url(images/editable.png) no-repeat center top;
+}
+
+/* ABOUT CRAZE */
+
+.about-craze {    
+    width: 100%;
+    height: 366px;
+    background-color: #e7e7e7;
+    margin-top: 120px;
+    padding-top: 60px;
+}
+
+.about-wrapper {
+    float: left;
+    width: 540px;   
+}
+
+.video {
+    float: right;
+    background: url(images/video.png) no-repeat center;
+    width: 500px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+ul.description {
+    padding-top: 15px;
+}
+
+ul.description li{
+    list-style-image: url(images/bullet.png);
+    font: 16px/27px Helvetica, sans-serif;
+    color: #848484;
+    padding: 5px 15px;
+    margin-left: 30px;
+}
+
+
+/* SLIDER */
+
+.slider-wrapper {
+    text-align: center;
+    width: 1020px;
+    margin: 0 auto;
+    padding-top: 60px;
+    
+}
+
+.slider-slides {
+    width: 100%;  
+    transition: transform 0.8s ease;
+}
+
+.slider-slides .testimonial {
+    float: left;
+}
+
+.slider-inner {
+    overflow: hidden;  
+}
+
+.slider {
+    padding-top: 50px;
+}
+
+.slider label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 3px solid #3498db;    
+}
+
+.slider input[type="radio"] {
+    display: none;
+}
+
+.testimonial {
+    width: 1020px;  
+}
+
+.testimonial p.testimonial-text {
+    font: italic 24px/32px Helvetica, sans-serif;
+    color: #848484;
+} 
+
+.testimonial p.autor {
+    font: 600 18px Helvetica, sans-serif;
+    color: #222222;
+    margin-top: 30px;
+}
+
+
+.slider-inner .slider-slides{ 
+    transform: translate(0);    
+}
+
